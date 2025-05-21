@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Vpearl.kmz</name>
+	<Style id="style">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>MapInfo Saved Objects</name>
+		<description><![CDATA[<br><br><br>
+    <table border="1" padding="0">
+      <tr><td>Lat</td><td></td></tr>
+      <tr><td>Long</td><td></td></tr>]]></description>
+		<styleUrl>#stylemap_id0</styleUrl>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.482591000008,11.151175999994,0 77.482591000008,11.196142000006,0 77.436722999992,11.196142000006,0 77.436722999992,11.151175999994,0 77.482591000008,11.151175999994,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Placemark>
+</Document>
+</kml>
